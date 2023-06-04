@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "A's persona",
+    "version": [1, 0, 0],
+    "uuid": "a55507bd-50df-41ce-9cdb-c8919d54d76c"
+  },
+  "modules": [
+    {
+      "version": [1, 0, 0],
+      "type": "skin_pack",
+      "uuid": "55ae4e6e-4031-4a19-9d51-fdab1d98c762"
+    }
+  ]
+}
