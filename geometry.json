@@ -1,0 +1,256 @@
+{
+	"format_version": "1.8.0",
+  "geometry.HolidaySkinPack2015.Tomte" : {
+      "bones" : [
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.0,
+                  "mirror" : false,
+                  "origin" : [ -4.0, 12.0, -2.0 ],
+                  "size" : [ 8.0, 12.0, 4.0 ],
+                  "uv" : [ 16.0, 16.0 ]
+               }
+            ],
+            "name" : "body",
+            "parent" : "waist",
+            "pivot" : [ 0.0, 24.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.0,
+                  "mirror" : false,
+                  "origin" : [ -4.0, 24.0, -4.0 ],
+                  "size" : [ 8.0, 8.0, 8.0 ],
+                  "uv" : [ 0.0, 0.0 ]
+               }
+            ],
+            "name" : "head",
+            "parent" : "body",
+            "pivot" : [ 0.0, 24.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.50,
+                  "mirror" : false,
+                  "origin" : [ -4.0, 24.0, -4.0 ],
+                  "size" : [ 8.0, 8.0, 8.0 ],
+                  "uv" : [ 32.0, 0.0 ]
+               }
+            ],
+            "name" : "hat",
+            "parent" : "head",
+            "pivot" : [ 0.0, 24.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.0,
+                  "mirror" : false,
+                  "origin" : [ -5.0, 28.0, -5.0 ],
+                  "size" : [ 10.0, 2.0, 10.0 ],
+                  "uv" : [ 24.0, 52.0 ]
+               },
+               {
+                  "inflate" : 0.0,
+                  "mirror" : false,
+                  "origin" : [ -3.0, 32.0, -3.0 ],
+                  "size" : [ 6.0, 3.0, 6.0 ],
+                  "uv" : [ 0.0, 55.0 ]
+               },
+               {
+                  "inflate" : 0.0,
+                  "mirror" : false,
+                  "origin" : [ -1.0, 38.0, -1.0 ],
+                  "size" : [ 2.0, 3.0, 2.0 ],
+                  "uv" : [ 18.0, 56.0 ]
+               },
+               {
+                  "inflate" : 0.0,
+                  "mirror" : false,
+                  "origin" : [ -2.0, 35.0, -2.0 ],
+                  "size" : [ 4.0, 3.0, 4.0 ],
+                  "uv" : [ 0.0, 48.0 ]
+               }
+            ],
+            "name" : "helmet",
+            "parent" : "head",
+            "pivot" : [ 0.0, 24.0, 5.684342000000000e-16 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.0,
+                  "mirror" : true,
+                  "origin" : [ 4.0, 11.50, -2.0 ],
+                  "size" : [ 3.0, 12.0, 4.0 ],
+                  "uv" : [ 40.0, 16.0 ]
+               }
+            ],
+            "name" : "leftArm",
+            "parent" : "body",
+            "pivot" : [ 5.0, 21.50, 0.0 ],
+            "render_group_id" : 1,
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.250,
+                  "mirror" : true,
+                  "origin" : [ 4.0, 11.50, -2.0 ],
+                  "size" : [ 3.0, 12.0, 4.0 ],
+                  "uv" : [ 40.0, 32.0 ]
+               }
+            ],
+            "name" : "leftSleeve",
+            "parent" : "leftArm",
+            "pivot" : [ 5.0, 21.50, 0.0 ],
+            "render_group_id" : 1,
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.0,
+                  "mirror" : false,
+                  "origin" : [ -7.0, 11.50, -2.0 ],
+                  "size" : [ 3.0, 12.0, 4.0 ],
+                  "uv" : [ 40.0, 16.0 ]
+               }
+            ],
+            "name" : "rightArm",
+            "parent" : "body",
+            "pivot" : [ -5.0, 21.50, 0.0 ],
+            "render_group_id" : 1,
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.250,
+                  "mirror" : false,
+                  "origin" : [ -7.0, 11.50, -2.0 ],
+                  "size" : [ 3.0, 12.0, 4.0 ],
+                  "uv" : [ 40.0, 32.0 ]
+               }
+            ],
+            "name" : "rightSleeve",
+            "parent" : "rightArm",
+            "pivot" : [ -5.0, 21.50, 0.0 ],
+            "render_group_id" : 1,
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.250,
+                  "mirror" : false,
+                  "origin" : [ -4.0, 12.0, -2.0 ],
+                  "size" : [ 8.0, 12.0, 4.0 ],
+                  "uv" : [ 16.0, 32.0 ]
+               }
+            ],
+            "name" : "jacket",
+            "parent" : "body",
+            "pivot" : [ 0.0, 24.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.0,
+                  "mirror" : true,
+                  "origin" : [ -0.099999770, 2.288819000000000e-07, -2.0 ],
+                  "size" : [ 4.0, 12.0, 4.0 ],
+                  "uv" : [ 0.0, 16.0 ]
+               }
+            ],
+            "name" : "leftLeg",
+            "parent" : "root",
+            "pivot" : [ 1.90, 12.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.25000030,
+                  "mirror" : true,
+                  "origin" : [ -0.099999690, 2.670288000000000e-07, -2.0 ],
+                  "size" : [ 4.0, 12.0, 4.0 ],
+                  "uv" : [ 0.0, 32.0 ]
+               }
+            ],
+            "name" : "leftPants",
+            "parent" : "leftLeg",
+            "pivot" : [ 1.90, 12.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.0,
+                  "mirror" : false,
+                  "origin" : [ -3.90, 3.051758000000000e-07, -2.0 ],
+                  "size" : [ 4.0, 12.0, 4.0 ],
+                  "uv" : [ 0.0, 16.0 ]
+               }
+            ],
+            "name" : "rightLeg",
+            "parent" : "root",
+            "pivot" : [ -1.90, 12.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [
+               {
+                  "inflate" : 0.25000030,
+                  "mirror" : false,
+                  "origin" : [ -3.90, 2.670288000000000e-07, -2.0 ],
+                  "size" : [ 4.0, 12.0, 4.0 ],
+                  "uv" : [ 0.0, 32.0 ]
+               }
+            ],
+            "name" : "rightPants",
+            "parent" : "rightLeg",
+            "pivot" : [ -1.90, 12.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [],
+            "name" : "waist",
+            "parent" : "root",
+            "pivot" : [ 0.0, 12.0, 0.0 ],
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [],
+            "name" : "rightItem",
+            "parent" : "rightArm",
+            "pivot" : [ -6.0, 14.50, 1.0 ],
+            "render_group_id" : 1,
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "cubes" : [],
+            "name" : "leftItem",
+            "parent" : "leftArm",
+            "pivot" : [ 6.0, 14.50, 1.0 ],
+            "render_group_id" : 1,
+            "rotation" : [ 0.0, 0.0, 0.0 ]
+         },
+         {
+            "name" : "root",
+            "pivot" : [ 0.0, 0.0, 0.0 ]
+         }
+      ],
+      "textureheight" : 64,
+      "texturewidth" : 64
+   }
+}

@@ -1,0 +1,21 @@
+{
+    "skins": [
+        {
+            "localization_name": "A_blackcape",
+            "geometry": "geometry.HolidaySkinPack2015.Tomte",
+            "texture": "black_4D.png",
+            "cape": "cape_blackframe.png",
+            "type": "free"
+        },
+        {
+            "localization_name": "A_glasscape",
+            "geometry": "geometry.HolidaySkinPack2015.Tomte",
+            "texture": "black_4D.png",
+            "cape": "cape_glassframe.png",
+            "type": "free"
+        }
+        
+    ],
+    "serialize_name": "who am i",
+    "localization_name": "who am i"
+}
